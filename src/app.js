@@ -18,7 +18,7 @@ app.use(cors());
 
 // request handling
 app.get('/', (req, res) => {
-  res.send('Hello, world!');
+  res.status(200).send('Hello, world!');
 });
 
 // error handling
